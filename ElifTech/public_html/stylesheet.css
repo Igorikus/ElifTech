@@ -1,3 +1,10 @@
 .navbar-fixed-top {
     padding-top: 20px;
 }
+   body {
+    background-image: url("background/black.jpg");
+} 
+
+.jumbotron {
+    opacity: 0.5;
+}
