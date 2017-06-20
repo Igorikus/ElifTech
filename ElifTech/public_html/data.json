@@ -1,0 +1,14 @@
+{
+    "name": "Mendax",
+    "descr": "some randome text",
+    "options": [
+        {
+            "active": true,
+            "created" : "21/01/2017"
+        },
+        {
+            "active": true,
+            "created" : "21/01/2017"
+        }
+    ]
+}
