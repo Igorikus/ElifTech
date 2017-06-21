@@ -1,3 +1,4 @@
+
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -5,16 +6,16 @@
  */
 
 $(document).ready(function(){
-    
-    
-    
-    
-    
-});
+    $("#add").click(function(){
+        /* var newDev = ; */
+        
+        
+        
+        var name = $("#company").val();
+        var price = $("#price").val();
+        var markup = "";
+        $("body").append(markup);
+       
 
- var myLink = $('<a/>').text('delivary').addClass('navigation').attr('href', 'google.com');
-            
-            var listEl = $('<li/>');
-            listEl.append(myLink);
-            $('.container').append(listEl);
-        });
+    });
+});
