@@ -5,17 +5,29 @@
  * and open the template in the editor.
  */
 
-$(document).ready(function(){
+ /*$("#add").click(function () {
+    * var name = $("#company").val();
+    *    var price = $("#price").val();
+    *    var markup = "";
+    *    var structure = [];
+    *    var mydiv = document.createElement("div");
+    *    mydiv.className = "container";
+    *    structure.push(mydiv);
+    *
+    *
+    *   //then all you need to do
+    *   $("body").append(structure);
+    *      });
+    *   });
+    */ 
+    
+$(document).ready(function (){
     $("#add").click(function(){
-        /* var newDev = ; */
-        
-        
-        
-        var name = $("#company").val();
-        var price = $("#price").val();
-        var markup = "";
-        $("body").append(markup);
-       
-
-    });
+    $(".panel-title").hide();
+    $("p").hide();
+    
 });
+});
+
+ 
+
